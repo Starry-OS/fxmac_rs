@@ -1,5 +1,3 @@
-cargo-features = ["edition2024"]
-
 [package]
 name = "fxmac_rs"
 authors = ["xiaoluoyuan@163.com"]

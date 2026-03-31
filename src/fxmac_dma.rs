@@ -62,9 +62,6 @@ pub const FXMAC_TXBUF_USED_MASK: u32 = 1<<31;
 /// TX Wrap bit, last descriptor
 pub const FXMAC_TXBUF_WRAP_MASK: u32 = 1<<30;
 
-pub const ULONG64_HI_MASK: u64 = 0xFFFFFFFF_00000000;
-pub const ULONG64_LO_MASK: u64 = !ULONG64_HI_MASK;
-
 /// Byte alignment of BDs
 pub const BD_ALIGNMENT: u64 = FXMAC_DMABD_MINIMUM_ALIGNMENT*2; // 128
 pub const FXMAC_DMABD_MINIMUM_ALIGNMENT: u64 = 64;

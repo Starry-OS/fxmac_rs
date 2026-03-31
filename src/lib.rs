@@ -6,6 +6,7 @@
 #![allow(non_snake_case)]
 
 extern crate alloc;
+extern crate aarch64_cpu;
 
 #[cfg(feature = "debug")]
 #[macro_use]
